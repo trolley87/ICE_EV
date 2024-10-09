@@ -1,3 +1,3 @@
 # ICE_EV
 
-# test
+# unzip #ACC.zip file first
