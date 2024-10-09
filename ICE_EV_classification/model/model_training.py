@@ -18,14 +18,14 @@ import numpy as np
 
 # Define paths for multiple EV folders and ICE folders
 ev_folders = [
-    '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/EV/Hyundai_Ioniq_5_with_acceleration',
-    '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/EV/Polestar_with_acceleration',
-    '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/EV/Tesla_with_acceleration'
+    '../#ACC/EV/Hyundai_Ioniq_5_with_acceleration',
+    '../#ACC/EV/Polestar_with_acceleration',
+    '../#ACC/EV/Tesla_with_acceleration'
 ]
 
 ice_folders = [
-    '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/ICE/2_Vehicle',
-    '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/ICE/2_Vehicle_higher'
+    '../#ACC/ICE/2_Vehicle',
+    '../#ACC/ICE/2_Vehicle_higher'
 ]
 
 # Function to extract features related to the follower vehicle only
