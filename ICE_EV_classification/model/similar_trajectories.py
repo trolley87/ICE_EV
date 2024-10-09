@@ -5,9 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define paths for EV and ICE data
-ev_folder = '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/EV/Hyundai_Ioniq_5_with_acceleration'
-ice_folder = '/Users/junzhao/Documents/UArizona/papers/EV/data/#ACC/ICE/2_Vehicle'
-
+ev_folder = '../#ACC/EV/Hyundai_Ioniq_5_with_acceleration'
+ice_folder = '../#ACC/ICE/2_Vehicle'
 
 def extract_speed_data(file_path):
     # Read the CSV file
